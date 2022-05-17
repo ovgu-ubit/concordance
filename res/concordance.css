@@ -1,0 +1,80 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 96px 8px 8px 8px;
+	background-image: url("logo_ovgu.png");
+	background-repeat: no-repeat;
+	background-position: center 8px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Lucida Sans", "Open Sans", "sans-serif";
+	text-align: center;
+	color: #606060;
+}
+
+fieldset {
+	border-radius: 8px;
+	display: inline-block;
+	margin: 0px;
+	padding: 8px;
+	width: 480px;
+}
+
+a.jump_link {
+	color: #7A003F;
+	font-size: large;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px #BC7F9F;
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #606060;
+	width: 100%;
+}
+
+table td {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: bottom;
+}
+
+table.form {
+	margin: 8px 0px 8px 0px;
+}
+
+table.form td.label {
+	width: 168px;
+}
+
+table.data {
+	border-collapse: collapse;
+	width: auto;
+}
+
+table.data, table.data th, table.data td {
+	padding: 2px;
+	border: 1px double #606060;
+}
+
+table.data tr th {
+	text-align: left;
+}
+
+table.data tr td.value {
+	text-align: right;
+	font-weight: bold;
+}
+
+input[type=file] {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+input[type=submit] {
+	margin: 0px;
+	padding: 8px;
+	font-weight: bold;
+	font-size: large;
+	width: 100%;
+}
